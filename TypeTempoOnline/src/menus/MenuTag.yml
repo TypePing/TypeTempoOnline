@@ -1,0 +1,44 @@
+nome: "&7TempoOnline > Tags"
+tamanho: 3
+Itens:
+  sempreonline:
+    skull: ""
+    id: 35
+    data: 5
+    nome: "&a[SempreOnline]"
+    lore:
+      - ""
+      - "&e- &7Tempo minimo: &e1 minuto"
+      - ""
+    preco: 60 #segundos
+    top_online: false
+    prefix: "&a[SempreOnline]"
+    slot_inv: 10
+
+  noAfk:
+    skull: ""
+    id: 35
+    data: 14
+    nome: "&c[noAfk]"
+    lore:
+      - ""
+      - "&e- &7Tempo minimo: &e1 minuto e 10 segundos"
+      - ""
+    preco: 70 #segundos
+    top_online: false
+    prefix: "&c[NoAfk]"
+    slot_inv: 13
+
+  viciado:
+    skull: ""
+    id: 35
+    data: 4
+    nome: "&e[viciado]"
+    lore:
+      - ""
+      - "&e- &7Tempo minimo: &e1 minuto e 20 segundos"
+      - ""
+    preco: 80#segundos
+    top_online: true
+    prefix: "&e[VICIADO]"
+    slot_inv: 16

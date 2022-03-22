@@ -1,0 +1,26 @@
+nome: "&7TempoOnline > Meu Status"
+tamanho: 3
+Itens:
+  item1:
+    skull: ""
+    id: 347
+    data: 0
+    nome: "&eTempo Online"
+    lore:
+      - ""
+      - "&e- &7Seu tempo online: &e{tempo}"
+      - ""
+    funcao: ""
+    slot_inv: 12
+  item3:
+    skull: ""
+    id: 386
+    data: 0
+    nome: "&eMudar Tag"
+    lore:
+      - ""
+      - "&7Altere sua tag de acordo com o tempo jogado"
+      - ""
+      - "&aClique e veja!"
+    funcao: "open:MenuTag.java"
+    slot_inv: 14

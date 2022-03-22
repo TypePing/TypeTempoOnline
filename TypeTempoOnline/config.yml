@@ -1,0 +1,48 @@
+MySQL:
+  ativar: false
+  host: 'localhost'
+  user: 'root'
+  password: ''
+  database: 'minecraft'
+  port: 3306
+
+Comandos:
+  comando_principal: "tempo"
+
+Utildades:
+  console_log: true #--> Exibir mensagens opcionais no console (ao carregar, salvar player e etc)
+  exibir_som: true #--> Exibir sons quando ocorrer um erro, abrir um inventario e etc
+  glow_ao_coletar: true #--> Glow ao coletar alguma recompensa
+  atualizar_top: 25 #minutos
+  mensagem_ao_atualizar: true #Enviar mensagem para todos do servidor quando o top atualizar
+
+#PlaceHolderAPI: %typetempoonline_tempo%
+#LegendChatAPI: {typetempoonline}
+
+#typetempoonline.ver --> Permissão para usar /tempo ver
+
+#Configuração de tags --> Abra a pasta "menus" e vá ate o arquivo MenuTag.yml
+#para desabilitar as tags basta deixar "prefix" em branco
+
+Mensagens:
+  tempo_ver_mensagem:
+    - "&aO tempo do player &e{player} e de: &e{tempo}"
+  sem_permissao:
+    - "&cVoce nao possui permissao para executar este comando!"
+  target_offline:
+    - "&cEste jogador nao se encontra no servidor!"
+  top_atualizado:
+    - "&e[&aTempo Online&e] &7- &eTop jogadores onlines atualizado!"
+  tempo_insuficiente:
+    - "&cVoce nao possui o tempo suficiente para executar esta acao!"
+  recompensa_ja_coletada:
+    - "&cEsta recompensa ja foi coletada!"
+  recompensa_coletada_com_sucesso:
+    - "&aRecompensa coletada com sucesso!"
+  tag_alterada_com_sucesso:
+    - "&aSua tag foi alterada com sucesso!"
+  tag_remove_com_sucesso:
+    - "&aTag &cremovida &acom sucesso!"
+  tag_apenas_para_o_top_1:
+    - "&cEsta tag e exclusiva apenas para o jogador mais &eVICIADO &cdo servidor!"
+    - "&cJogue por mais tempo para obte-la"

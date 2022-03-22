@@ -1,0 +1,46 @@
+nome: "&7TempoOnline"
+tamanho: 3
+Itens:
+  item1:
+    skull: "http://textures.minecraft.net/texture/e34a592a79397a8df3997c43091694fc2fb76c883a76cce89f0227e5c9f1dfe"
+    id: 1
+    data: 0
+    nome: "&eTop Jogadores"
+    lore:
+      - ""
+      - "&7Veja os jogadores mais &eVICIADOS"
+      - "&7do servidor!"
+      - ""
+      - "&aClique e veja!"
+    funcao: "open:MenuTopJogadores.java"
+    slot_inv: 10
+  item2:
+    skull: "http://textures.minecraft.net/texture/594d5914c905401de757abd42103a568578d55f9164c372f14330176cb2ed588"
+    id: 1
+    data: 0
+    nome: "&eMeu Status"
+    lore:
+      - ""
+      - "&7Clique aqui para ver seus status"
+      - "&7de acordo com:"
+      - ""
+      - "&e- &7Tempo online no servidor"
+      - "&e- &7Recompensas coletadas"
+      - "&e- &7Alterar tag"
+      - ""
+      - "&aClique e veja!"
+    funcao: "open:MenuMeuStatus.java"
+    slot_inv: 13
+  item3:
+    skull: "http://textures.minecraft.net/texture/209299a117bee88d3262f6ab98211fba344ecae39b47ec848129706dedc81e4f"
+    id: 1
+    data: 0
+    nome: "&eCentral de Recompensas"
+    lore:
+      - ""
+      - "&7Clique aqui para receber recompensas"
+      - "&7por tempo jogado!"
+      - ""
+      - "&aClique e veja!"
+    funcao: "open:MenuRecompensas.java"
+    slot_inv: 16

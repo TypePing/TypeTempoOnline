@@ -1,0 +1,58 @@
+nome: "&7TempoOnline > Recompensas"
+tamanho: 3
+Itens:
+  item1:
+    skull: ""
+    id: 42
+    data: 0
+    nome: "&eRecompensa1"
+    lore:
+      - ""
+      - "&7Recompensas:"
+      - "&e- &7Say"
+      - ""
+      - "&7Preco: &e1 Minuto"
+      - ""
+      - "&aClique e veja!"
+    slot_inv: 10
+    preco: 60 # segundos
+    recompensa:
+      - "say {player} coletou missao1"
+
+  item2:
+    skull: ""
+    id: 41
+    data: 0
+    nome: "&eRecompensa2"
+    lore:
+      - ""
+      - "&7Recompensas:"
+      - "&e- &7op"
+      - ""
+      - "&7Preco: &e1 Minuto e 10 segundos"
+      - ""
+      - "&aClique e veja!"
+    slot_inv: 13
+    preco: 70 # segundos
+    recompensa:
+      - "op {player}"
+
+  item3:
+    skull: ""
+    id: 57
+    data: 0
+    nome: "&eRecompensa3"
+    lore:
+      - ""
+      - "&7Recompensas:"
+      - "&e- &7op"
+      - "&e- &7say"
+      - ""
+      - "&7Preco: &e1 Minuto e 20 segundos"
+      - ""
+      - "&aClique e veja!"
+    slot_inv: 16
+    preco: 80 # segundos
+    recompensa:
+      - "op {player}"
+      - "say {player} coletou recompensa 3"
